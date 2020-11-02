@@ -1,0 +1,38 @@
+.modal{
+    display: flex;
+    width: 25rem;
+    height: auto;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    overflow: visible;
+    margin:0;   
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.modal-content{
+    display: flex;
+    text-align: center;
+
+
+}
+
+.modal-content .PP{
+    top: -5rem;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+    width: 9rem;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.modal-content .body{
+    position: relative;
+    top: -2rem;
+}
+
+.display-block{
+    display: block;
+}
+.display-none{
+    display: none;
+}
